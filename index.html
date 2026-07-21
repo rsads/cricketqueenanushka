@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Cricket Queen Anushka 🏏</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;overflow:hidden;font-family:Arial,sans-serif;color:#fff;background:radial-gradient(circle at 15% 20%,#ff379522,transparent 28%),radial-gradient(circle at 85% 80%,#00dcff20,transparent 30%),linear-gradient(135deg,#080916,#17102b 48%,#060711)}
+body:before{content:"";position:fixed;inset:0;opacity:.07;background-image:linear-gradient(90deg,#fff1px,transparent 1px),linear-gradient(#fff1px,transparent 1px);background-size:45px 45px}
+.container{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px 15px}
+.card{position:relative;width:min(440px,100%);padding:28px 22px 24px;text-align:center;border:1px solid #ff69b859;border-radius:30px;background:#090b18c7;backdrop-filter:blur(15px);box-shadow:0 25px 80px #000b,0 0 45px #ff37951f;overflow:hidden}
+.card:before{content:"";position:absolute;width:260px;height:260px;top:-130px;left:50%;transform:translateX(-50%);border-radius:50%;background:#ff329b29;filter:blur(55px)}
+.badge{position:relative;z-index:2;display:inline-block;margin-bottom:16px;padding:7px 15px;border-radius:30px;border:1px solid #ff6eba66;background:#ff379518;color:#ff9bd0;font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.logo-wrap{position:relative;z-index:2;width:150px;height:150px;margin:0 auto 16px}
+.logo-wrap:before{content:"";position:absolute;inset:-7px;border-radius:50%;background:linear-gradient(135deg,#ff4f9a,#ffd1ea,#7b4dff,#ff4f9a);animation:rotate 6s linear infinite}
+.logo-wrap:after{content:"";position:absolute;inset:-15px;border:1px solid #ff64b940;border-radius:50%;box-shadow:0 0 35px #ff329b33}
+.logo{position:relative;z-index:2;width:100%;height:100%;object-fit:cover;border-radius:50%;border:5px solid #0a0b17}
+h1{position:relative;z-index:2;font-size:27px;line-height:1.2;font-weight:900;text-shadow:0 2px 18px #ff419a4d}
+h1 span{color:#ff83c1}
+.subtitle{position:relative;z-index:2;margin:11px auto 18px;max-width:355px;color:#c9c8d3;font-size:13px;line-height:1.55}
+.features{position:relative;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:20px}
+.feature{padding:10px 4px;border-radius:13px;background:#ffffff0b;border:1px solid #ffffff14;font-size:10px;font-weight:700;color:#e7e6ee}
+.feature b{display:block;font-size:17px;margin-bottom:3px}
+.cta{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:16px 18px;border-radius:15px;text-decoration:none;color:#160b18;font-size:15px;font-weight:900;background:linear-gradient(135deg,#ffb7df,#ff5ba9,#c56cff);box-shadow:0 10px 32px #ff37a04d;animation:pulse 2.2s infinite;transition:.25s}
+.cta:hover{transform:translateY(-2px)}
+.tg{width:21px;height:21px;fill:#160b18}
+.note{position:relative;z-index:2;margin-top:12px;color:#858391;font-size:10px}
+.footer{position:relative;z-index:2;margin-top:16px;color:#5e5d6a;font-size:9px}
+.ball{position:fixed;z-index:1;width:24px;height:24px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffb5d9 0 8%,#ff3d91 10% 65%,#a9004d 100%);box-shadow:0 0 20px #ff288c99;animation:ballMove 7s ease-in-out infinite}
+.bat{position:fixed;z-index:1;width:72px;height:18px;border-radius:12px 5px 5px 12px;background:linear-gradient(90deg,#d99a57,#ffd99d,#b96e2d);transform:rotate(-35deg);animation:batMove 8s ease-in-out infinite}
+.bat:after{content:"";position:absolute;right:-20px;top:3px;width:25px;height:12px;border-radius:4px;background:#7b3e28}
+@keyframes ballMove{0%{left:-30px;top:18%;transform:scale(.7)}45%{left:88%;top:35%;transform:scale(1.1)}70%{left:68%;top:80%;transform:scale(.8)}100%{left:105%;top:20%;transform:scale(.6)}}
+@keyframes batMove{0%,100%{left:-90px;top:72%}50%{left:85%;top:16%;transform:rotate(25deg)}}
+@keyframes rotate{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{box-shadow:0 10px 32px #ff37a040}50%{box-shadow:0 10px 45px #ff37a080}}
+@media(max-width:380px){.card{padding:23px 16px}.logo-wrap{width:132px;height:132px}h1{font-size:23px}}
+</style>
+</head>
+<body>
+<div class="ball"></div><div class="bat"></div>
+<div class="container"><main class="card">
+<div class="badge">🏏 Cricket Updates • Match Insights</div>
+<div class="logo-wrap"><img class="logo" src="logo.jpg" alt="Cricket Queen Anushka"></div>
+<h1>𝘾𝙧𝙞𝙘𝙠𝙚𝙩 𝙌𝙪𝙚𝙚𝙣 <span>𝘼𝙣𝙪𝙨𝙝𝙠𝙖 🏏</span></h1>
+<p class="subtitle">Cricket lovers ke liye match updates, important moments aur engaging cricket analysis — sab ek hi community mein.</p>
+<div class="features"><div class="feature"><b>🏏</b>Cricket</div><div class="feature"><b>📊</b>Insights</div><div class="feature"><b>⚡</b>Updates</div></div>
+<a class="cta" href="https://t.me/+BJuFb0y6kGNkNWE9" target="_blank" rel="noopener">
+<svg class="tg" viewBox="0 0 24 24"><path d="M21.4 3.6 2.9 10.7c-1.3.5-1.3 1.2-.2 1.5l4.7 1.5 1.8 5.7c.2.6.1.8.7.8.4 0 .6-.2.9-.5l2.3-2.2 4.8 3.5c.9.5 1.5.3 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.7-1.4ZM8.1 13.4l10.9-6.9c.5-.3 1-.1.6.2l-8.8 8-.3 3.1-1.5-4.4-3.4-1.1c-.7-.2-.7-.5.1-.9l2.4-1Z"/></svg>
+JOIN TELEGRAM CHANNEL</a>
+<div class="note">Tap the button above to join the cricket community</div>
+<div class="footer">© 2026 Cricket Queen Anushka ™</div>
+</main></div>
+</body>
+</html>
